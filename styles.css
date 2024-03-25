@@ -1,0 +1,186 @@
+*{
+    font-size:x-large;
+    font-family: "Orbitron";
+}
+body {
+    justify-content: center;
+    display: flex;
+}
+.calculatrice{
+    background-color: rgba(30, 30, 30, 0.8); 
+    border-radius: 20px;
+}
+.affichage-grid{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(39,102,0,1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    border-color: darkgray;
+    text-align: end;
+}
+#calcul{
+    display: block;
+    height: 66px;
+    width: 300px;
+}
+#resultat{
+    display: block;
+    height: 33px;
+    width: 300px;
+}
+.boutonNumerique{
+    color: whitesmoke;
+    background-color: rgba(12, 12, 13, 0.85); 
+    border-radius: 10px;
+}
+.boutonOperation{
+    color: whitesmoke;
+    background-color: rgba(12, 12, 13, 0.71); 
+    border-radius: 10px;
+}
+.boutonEgale{
+    color: black;
+    background-color: rgba(255, 30, 15, 1);
+    border-radius: 10px;
+}
+.clavier-grid{
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+}
+#bouton-0{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#bouton-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#bouton-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#bouton-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#bouton-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#bouton-5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#bouton-6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#bouton-7{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#bouton-8{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#bouton-9{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#bouton-virgule{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#bouton-multiplier{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#bouton-diviser{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#bouton-soustraire{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#bouton-additionner{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#bouton-egale{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+#bouton-supprimer{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+#bouton-effacer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+#bouton-parenthese-ouverte{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#bouton-parenthese-ferme{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#bouton-racine-carre{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#bouton-carre{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
